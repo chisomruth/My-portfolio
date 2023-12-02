@@ -33,12 +33,26 @@ const Footer = (props) => {
     gitHub,
     instagram,
     linkedIn,
-    medium,
+    Hashnode,
     name,
     primaryColor,
     twitter,
     youTube,
   } = props;
+
+  Footer.propTypes = {
+    devDotTo: PropTypes.string,
+    email: PropTypes.string,
+    gitHub: PropTypes.string,
+    instagram: PropTypes.string,
+    linkedIn: PropTypes.string,
+    medium: PropTypes.string,
+    Hashnode: PropTypes.string,
+    name: PropTypes.string,
+    primaryColor: PropTypes.string,
+    twitter: PropTypes.string,
+    youTube: PropTypes.string,
+  };
 
   return (
     <div
@@ -50,7 +64,7 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw",
       }}
     >
       <div
@@ -93,8 +107,8 @@ const Footer = (props) => {
             <img src={linkedInIcon} alt="LinkedIn" className="socialIcon" />
           </a>
         )}
-        {medium && (
-          <a href={`https://medium.com/@${medium}`} target="_blank" rel="noopener noreferrer">
+        {Hashnode && (
+          <a href={`https://${Hashnode}.hashnode.dev/`} target="_blank" rel="noopener noreferrer">
             <img src={mediumIcon} alt="Medium" className="socialIcon" />
           </a>
         )}
@@ -135,7 +149,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-
 };
 
 export default Footer;

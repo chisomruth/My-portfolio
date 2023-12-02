@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/AI.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "AI Image";
 
 /**
  * Project list
@@ -31,28 +31,24 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
-    description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    title: "My Machine learning project🎉",
+    description: "Explore and access all my machine learning projects here.",
+    url: "https://github.com/chisomruth/All_Machine-Learning_projects",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "My Data Visualization projects",
+    description: "Take a deep dive into my data visualization projects.",
+    url: "https://github.com/chisomruth/All_Data-visualization-projects",
   },
   {
-    title: "My Resume Site",
-    description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    title: "My CV/Resume",
+    description: "Download my CV/Resume here.",
+    url: "file:///C:/Users/chiso/OneDrive/Documents/Chisom%20Chibuike%20Resume.pdf",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "My Data science projects",
+    description: "Explore some of my most impactful and promising data science project.",
+    url: "https://github.com/chisomruth/All_Data-science_projects",
   },
 ];
 
@@ -64,7 +60,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "100%", width: "100%", objectFit: "cover" }}
             alt={imageAltText}
           />
         </div>
