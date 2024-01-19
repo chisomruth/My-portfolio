@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Chisom Chibuike",
-  title: "Data scientist/Machine learning researcher",
+  title: "Data scientist/Analyst",
   email: "chisomruth1212@gmail.com",
   gitHub: "chisomruth",
   linkedIn: "chisom-chibuike",
